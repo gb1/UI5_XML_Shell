@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<core:View
+    controllerName="com.gb.view.Second"
+    xmlns:ux3="sap.ui.ux3"
+    xmlns:commons="sap.ui.commons"
+    xmlns:core="sap.ui.core">
+
+    <commons:Image src="http://3.bp.blogspot.com/_jxQyBncYPVE/TUFd8rPodoI/AAAAAAAAHuM/1NnmDWI_Poc/s1600/corgilobster.jpg"/>
+</core:View>

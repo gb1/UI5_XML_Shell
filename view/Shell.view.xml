@@ -7,21 +7,18 @@
     xmlns:core="sap.ui.core"
     xmlns:mvc="sap.ui.core.mvc">
 
-    <ux3:Shell appTitle="UI5 XML Test">
+    <ux3:Shell id="oShell" appTitle="UI5 XML Test" worksetItemSelected="onNavigate">
 
         <ux3:worksetItems>
 
-            <ux3:NavigationItem text="Item 1">
+            <ux3:NavigationItem text="Doge" key="key1">
             
             </ux3:NavigationItem>
 
-            <ux3:NavigationItem text="Item 2">
+            <ux3:NavigationItem text="Red Lobster" key="key2">
             
             </ux3:NavigationItem>
 
-            <ux3:NavigationItem text="Item 3">
-            
-            </ux3:NavigationItem>
         </ux3:worksetItems>
 
         <ux3:content>
