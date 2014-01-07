@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charset="UTF-8">
+
+        <title>UI5</title>
+
+        <script id="sap-ui-bootstrap"
+                type="text/javascript"
+                src="/resources/sap-ui-core.js" 
+                type="text/javascript" 
+                data-sap-ui-libs="sap.ui.ux3, sap.ui.commons, sap.ui.table"  
+                data-sap-ui-theme="sap_goldreflection"
+                data-sap-ui-resourceroots='{"com.gb": "./"}'>
+        </script>
+
+        <script>
+
+            new sap.ui.core.ComponentContainer({
+                name : "com.gb"
+            }).placeAt("content")
+
+        </script>
+    </head>
+
+    <body class="sapUiBody" role="application">
+        <div id="content"></div>
+    </body>
+</html>

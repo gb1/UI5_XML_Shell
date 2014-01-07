@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<core:View
+    controllerName="com.gb.view.First"
+    xmlns:ux3="sap.ui.ux3"
+    xmlns:commons="sap.ui.commons"
+    xmlns:core="sap.ui.core">
+
+    <commons:Image src="http://i.imgur.com/LeDO0Ji.jpg"/>
+</core:View>
